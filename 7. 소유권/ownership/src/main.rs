@@ -1,3 +1,75 @@
 fn main() {
-    println!("Hello, world!");
+    ownership_heap1();
+    ownership_heap2();
+    ownership_heap3();
+    ownership_heap4();
+    ownership_heap5();
+}
+fn ownership_stack1(){
+    let a = [0,1,2,3,4,5];
+    println!("{}", a[0]);
+    let b = a;
+    println!("{}", a[0]);
+    println!("{}", b[0]);
+    // 소유권이 a에서 b로 옮겨졌기 때문에 아래의 명령어를 수행시 에러 발생
+    //println!("{}", a);
+}
+fn ownership_stack2(){
+    let a = 5;
+    // 소유권이 함수의 파라미터로 이동
+    let b = fuction_array(a);
+    // a는 함수를 수행 후 소유권이 존재하지 않으므로 직접적인 접속 불가능
+    println!("{}", a);
+    println!("{}", b);
+}
+fn ownership_stack3(){
+    let a = 5;
+    // a의 소유권이 함수 파라미터로 이동
+    let a = fuction_array(a);
+    // a의 소유권은 함수 수행 후 사라지나, 함수의 리턴값을 새로 할당받아 소유권을 건네줌.
+    println!("{}", a);
+}
+fn ownership_heap1(){
+    let a = String::from("ABCBank");
+    println!("{}", a);
+    let b = a;
+    println!("{}", b);
+    // 소유권이 a에서 b로 옮겨졌기 때문에 아래의 명령어를 수행시 에러 발생
+    //println!("{}", a);
+}
+fn ownership_heap2(){
+    let a = String::from("ABCBank");
+    let b = a.clone();
+    println!("{}", a);
+    println!("{}", b);
+}
+fn ownership_heap3(){
+    let a = String::from("ABCBank");
+    // 소유권이 함수의 파라미터로 이동
+    let b = fuction_string(a);
+    // a는 함수를 수행 후 소유권이 존재하지 않으므로 직접적인 접속 불가능
+    //println!("{}", a);
+    println!("{}", b);
+}
+fn ownership_heap4(){
+    let a = String::from("ABCBank");
+    // a의 복사본의 소유권이 함수 파라미터로 이동
+    let b = fuction_string(a.clone());
+    // 함수 수행 후 a의 복사본은 사라지나, a의 소유권은 그대로이므로 접속 가능
+    println!("{}", a);
+    println!("{}", b);
+}
+fn ownership_heap5(){
+    let a = String::from("ABCBank");
+    // a의 소유권이 함수 파라미터로 이동
+    let a = fuction_string(a);
+    // a의 소유권은 함수 수행 후 사라지나, 함수의 리턴값을 새로 할당받아 소유권을 건네줌.
+    println!("{}", a);
+}
+fn fuction_string(value:String) -> String{
+    value.replace("B", "")
+    // 함수의 스코프가 종료됨과 동시에 Value의 할당 해제
+}
+fn fuction_array(value:i32) -> i32{
+    value + 1
 }
