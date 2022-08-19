@@ -1,0 +1,12 @@
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\bin\x64\Debug\fibonacci.dll
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\bin\x64\Debug\fibonacci_csharp.exe.config
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\bin\x64\Debug\fibonacci_csharp.exe
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\bin\x64\Debug\fibonacci_csharp.pdb
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.csproj.AssemblyReference.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.Form1.resources
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.Properties.Resources.resources
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.csproj.GenerateResource.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.csproj.CoreCompileInputs.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.exe
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\fibonacci_csharp\fibonacci_csharp\obj\x64\Debug\fibonacci_csharp.pdb

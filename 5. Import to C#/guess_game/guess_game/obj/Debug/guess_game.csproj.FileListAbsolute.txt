@@ -1,0 +1,12 @@
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\bin\Debug\guess_game.exe.config
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\bin\Debug\guess_game.exe
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\bin\Debug\guess_game.pdb
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.csproj.AssemblyReference.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.csproj.SuggestedBindingRedirects.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.Form1.resources
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.Properties.Resources.resources
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.csproj.GenerateResource.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.csproj.CoreCompileInputs.cache
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.exe
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\obj\Debug\guess_game.pdb
+C:\Users\woejr\Desktop\프로젝트\(J2)컨베이어 박스\ConvyerBox_220803\Rust VsCode\5. Import to C#\guess_game\guess_game\bin\Debug\guess_game_lib.dll
