@@ -1,9 +1,32 @@
 fn main() {
-    ownership_heap1();
-    ownership_heap2();
-    ownership_heap3();
-    ownership_heap4();
-    ownership_heap5();
+    // ownership_heap1();
+    // ownership_heap2();
+    // ownership_heap3();
+    // ownership_heap4();
+    // ownership_heap5();
+    // ownership_stack1();
+    // ownership_stack2();
+    // ownership_stack3();
+    // slice();
+    reference();
+}
+fn reference(){
+    let mut a = String::from("ABCBank");
+    // 참조자를 통해 값 전달
+    println!("{}", fuction_reference(&a));
+    // 참조자를 통해 값을 전달했으므로 이후에도 동일하게 a 접속 가능
+    println!("{}", a);
+}
+fn slice(){
+    // String 타입
+    let mut a = String::from("ABCBank");
+    println!("{}", a);
+    // &str 타입 -> 소유권이 없음
+    let mut b = &a[0..3];
+    //재초기화할 경우 &str의 소유권이 동시에 사라지므로 컴파일 에러 발생
+    //a = String::from("DEFBank");
+    println!("{}", a);
+    println!("{}", b);
 }
 fn ownership_stack1(){
     let a = [0,1,2,3,4,5];
@@ -72,4 +95,7 @@ fn fuction_string(value:String) -> String{
 }
 fn fuction_array(value:i32) -> i32{
     value + 1
+}
+fn fuction_reference(value:&String) -> String{
+    value.replace("B", "")
 }
